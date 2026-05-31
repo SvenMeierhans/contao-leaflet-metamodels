@@ -31,7 +31,7 @@
     "contao/core-bundle": "^5.3",
     "doctrine/dbal": "^3.0",
     "menatwork/contao-multicolumnwizard-bundle": "^3.4.0",
-    "metamodels/attribute_select": "dev-master",
+    "metamodels/attribute_select": "^2.4@dev",
     "metamodels/core": "^2.4",
     "netzmacht/contao-leaflet-maps": "dev-master",
     "netzmacht/contao-toolkit": "^4.0",
