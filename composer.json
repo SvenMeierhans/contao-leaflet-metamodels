@@ -37,12 +37,12 @@
     "netzmacht/contao-toolkit": "^4.0",
     "netzmacht/php-javascript-builder": "^1.0.2",
     "netzmacht/php-leaflet": "^1.0",
-    "symfony/config": "^4.4 || ^5.4 || ^7.4",
-    "symfony/dependency-injection": "^4.4 || ^5.4 || ^7.4",
-    "symfony/event-dispatcher": "^4.4 || ^5.4 || ^7.4",
-    "symfony/http-kernel": "^4.4 || ^5.4 || ^7.4",
-    "symfony/routing": "^4.4 || ^5.4 || ^7.4",
-    "symfony/translation": "^4.4 || ^5.4 || ^7.4",
+    "symfony/config": "^4.4 || ^5.4 || ^6.4 || ^7.4",
+    "symfony/dependency-injection": "^4.4 || ^5.4 || ^6.4 || ^7.4",
+    "symfony/event-dispatcher": "^4.4 || ^5.4 || ^6.4 || ^7.4",
+    "symfony/http-kernel": "^4.4 || ^5.4 || ^6.4 || ^7.4",
+    "symfony/routing": "^4.4 || ^5.4 || ^6.4 || ^7.4",
+    "symfony/translation": "^4.4 || ^5.4 || ^6.4 || ^7.4",
     "symfony/translation-contracts": "^1.1 || ^2.0 || ^3.0"
   },
   "require-dev": {
