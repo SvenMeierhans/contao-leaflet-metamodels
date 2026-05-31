@@ -34,7 +34,7 @@
     "metamodels/attribute_select": "dev-master",
     "metamodels/core": "^2.4",
     "netzmacht/contao-leaflet-maps": "dev-master",
-    "netzmacht/contao-toolkit": "^3.7",
+    "netzmacht/contao-toolkit": "^4.0",
     "netzmacht/php-javascript-builder": "^1.0.2",
     "netzmacht/php-leaflet": "^1.0",
     "symfony/config": "^4.4 || ^5.4 || ^7.4",
