@@ -80,6 +80,11 @@ final class RendererDcaListener extends AbstractListener
         $this->rendererFactory   = $rendererFactory;
     }
 
+    public static function getName() : string
+    {
+        return static::$name;
+    }
+    
     /**
      * Get all attribute ids of a MetaModel.
      *
