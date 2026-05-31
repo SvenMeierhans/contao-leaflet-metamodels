@@ -21,9 +21,7 @@ $GLOBALS['TL_DCA']['tl_leaflet_layer']['config']['onload_callback'][] = [
     'buildFilterParameterList'
 ];
 
-array_insert(
-    $GLOBALS['TL_DCA']['tl_leaflet_layer']['list']['operations'],
-    0,
+$GLOBALS['TL_DCA']['tl_leaflet_layer']['list']['operations'] = array_merge(
     [
         'metamodels' => [
             'label'           => &$GLOBALS['TL_LANG']['tl_leaflet_layer']['metamodels'],
@@ -34,7 +32,8 @@ array_insert(
                 'generateRendererButton',
             ],
         ],
-    ]
+    ],
+    $GLOBALS['TL_DCA']['tl_leaflet_layer']['list']['operations'] ?? []
 );
 
 $GLOBALS['TL_DCA']['tl_leaflet_layer']['metapalettes']['metamodels extends default'] = [
